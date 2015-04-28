@@ -4,7 +4,7 @@
 		name: 'Azurite',
 		price: 2.95,
 		canPurchase: false,
-    	soldOut: true
+    	soldOut: false
 	}
 
 	app.controller('StoreController', function(){
