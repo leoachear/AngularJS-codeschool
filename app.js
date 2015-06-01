@@ -12,7 +12,7 @@
 						name: 'Bloodstone',
 						price: 5.95,
 						canPurchase: true,
-				    	soldOut: false
+				    	soldOut: false 
 					},
 					{
 						name: 'Zircon',
@@ -24,5 +24,5 @@
 
 	app.controller('StoreController', function(){
 		this.products = gems;
-	});
+	}); 
 })();
